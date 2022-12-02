@@ -1,5 +1,5 @@
 {
-  "name": "paper.nu",
+  "name": "paper-nu-college-scheduler",
   "version": "2.1.0",
   "private": true,
   "homepage": "https://www.paper.nu",
@@ -40,6 +40,7 @@
   "scripts": {
     "start": "GENERATE_SOURCEMAP=false react-scripts start",
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "deploy": "git add . && git commit -m Build && git push",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeployrelease": "npm run build",
